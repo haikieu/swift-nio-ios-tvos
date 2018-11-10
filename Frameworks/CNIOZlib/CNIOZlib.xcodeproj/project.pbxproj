@@ -11,6 +11,10 @@
 		35D1B67221963FB700A3B9A6 /* CNIOZlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B67121963FB700A3B9A6 /* CNIOZlibTests.m */; };
 		35D1B67421963FB700A3B9A6 /* CNIOZlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B66621963FB700A3B9A6 /* CNIOZlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D1B6BA2196404100A3B9A6 /* empty.c in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B6B92196404100A3B9A6 /* empty.c */; };
+		4615D86D21969C430029477E /* CNIOZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4615D86421969C430029477E /* CNIOZlib.framework */; };
+		4615D87B21969D490029477E /* empty.c in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B6B92196404100A3B9A6 /* empty.c */; };
+		4615D87C21969D4D0029477E /* CNIOZlibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B67121963FB700A3B9A6 /* CNIOZlibTests.m */; };
+		4615D87D21969D590029477E /* CNIOZlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B66621963FB700A3B9A6 /* CNIOZlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +24,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 35D1B66221963FB700A3B9A6;
 			remoteInfo = CNIOZlib;
+		};
+		4615D86E21969C430029477E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D1B65A21963FB700A3B9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4615D86321969C430029477E;
+			remoteInfo = CNIOZlibTV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,6 +42,8 @@
 		35D1B67121963FB700A3B9A6 /* CNIOZlibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNIOZlibTests.m; sourceTree = "<group>"; };
 		35D1B67321963FB700A3B9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D1B6B92196404100A3B9A6 /* empty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = empty.c; sourceTree = "<group>"; };
+		4615D86421969C430029477E /* CNIOZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNIOZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4615D86C21969C430029477E /* CNIOZlibTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNIOZlibTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +59,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1B66D21963FB700A3B9A6 /* CNIOZlib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615D86121969C430029477E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615D86921969C430029477E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615D86D21969C430029477E /* CNIOZlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +94,8 @@
 			children = (
 				35D1B66321963FB700A3B9A6 /* CNIOZlib.framework */,
 				35D1B66C21963FB700A3B9A6 /* CNIOZlibTests.xctest */,
+				4615D86421969C430029477E /* CNIOZlib.framework */,
+				4615D86C21969C430029477E /* CNIOZlibTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +127,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1B67421963FB700A3B9A6 /* CNIOZlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615D85F21969C430029477E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615D87D21969D590029477E /* CNIOZlib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +177,42 @@
 			productReference = 35D1B66C21963FB700A3B9A6 /* CNIOZlibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4615D86321969C430029477E /* CNIOZlibTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4615D87521969C430029477E /* Build configuration list for PBXNativeTarget "CNIOZlibTV" */;
+			buildPhases = (
+				4615D85F21969C430029477E /* Headers */,
+				4615D86021969C430029477E /* Sources */,
+				4615D86121969C430029477E /* Frameworks */,
+				4615D86221969C430029477E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNIOZlibTV;
+			productName = CNIOZlibTV;
+			productReference = 4615D86421969C430029477E /* CNIOZlib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4615D86B21969C430029477E /* CNIOZlibTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4615D87821969C430029477E /* Build configuration list for PBXNativeTarget "CNIOZlibTVTests" */;
+			buildPhases = (
+				4615D86821969C430029477E /* Sources */,
+				4615D86921969C430029477E /* Frameworks */,
+				4615D86A21969C430029477E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4615D86F21969C430029477E /* PBXTargetDependency */,
+			);
+			name = CNIOZlibTVTests;
+			productName = CNIOZlibTVTests;
+			productReference = 4615D86C21969C430029477E /* CNIOZlibTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +227,12 @@
 					};
 					35D1B66B21963FB700A3B9A6 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					4615D86321969C430029477E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					4615D86B21969C430029477E = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -170,6 +250,8 @@
 			targets = (
 				35D1B66221963FB700A3B9A6 /* CNIOZlib */,
 				35D1B66B21963FB700A3B9A6 /* CNIOZlibTests */,
+				4615D86321969C430029477E /* CNIOZlibTV */,
+				4615D86B21969C430029477E /* CNIOZlibTVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +265,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		35D1B66A21963FB700A3B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615D86221969C430029477E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615D86A21969C430029477E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,6 +304,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4615D86021969C430029477E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615D87B21969D490029477E /* empty.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615D86821969C430029477E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615D87C21969D4D0029477E /* CNIOZlibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +327,11 @@
 			isa = PBXTargetDependency;
 			target = 35D1B66221963FB700A3B9A6 /* CNIOZlib */;
 			targetProxy = 35D1B66E21963FB700A3B9A6 /* PBXContainerItemProxy */;
+		};
+		4615D86F21969C430029477E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4615D86321969C430029477E /* CNIOZlibTV */;
+			targetProxy = 4615D86E21969C430029477E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -271,11 +388,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -327,10 +445,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -419,6 +538,92 @@
 			};
 			name = Release;
 		};
+		4615D87621969C430029477E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CNIOZlib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIOZlibTV;
+				PRODUCT_NAME = CNIOZlib;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		4615D87721969C430029477E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/CNIOZlib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIOZlibTV;
+				PRODUCT_NAME = CNIOZlib;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		4615D87921969C430029477E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				INFOPLIST_FILE = CNIOZlibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIOZlibTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		4615D87A21969C430029477E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				INFOPLIST_FILE = CNIOZlibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIOZlibTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +650,24 @@
 			buildConfigurations = (
 				35D1B67B21963FB700A3B9A6 /* Debug */,
 				35D1B67C21963FB700A3B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4615D87521969C430029477E /* Build configuration list for PBXNativeTarget "CNIOZlibTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4615D87621969C430029477E /* Debug */,
+				4615D87721969C430029477E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4615D87821969C430029477E /* Build configuration list for PBXNativeTarget "CNIOZlibTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4615D87921969C430029477E /* Debug */,
+				4615D87A21969C430029477E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
