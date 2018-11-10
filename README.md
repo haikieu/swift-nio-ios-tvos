@@ -28,5 +28,3 @@ Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS
 + NIOTLS
 + NIOWebSocket
 
-# Changes notice
-- Remove some code involved to linux and android
