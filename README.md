@@ -8,10 +8,10 @@ The Apple's Swift-NIO project originally targets to MACOS and Ubuntu OS, in orde
 Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS (because of multipath network issue not hanlded yet, and some other device-state issues)
 
 # Status
-+ Build iOS [success on XCode 10.1 MacOS 11.3 Higher Sierra]
++ Build iOS [success on XCode 10.1 MacOS 11.3 Higher Sierra & Mojave]
++ Build tvOS [success on XCode 10.1 MacOS 11.3 Higher Sierra & Mojave]
 
 # TODO
-+ Build tvOS [inprogress]
 + Migrate from POSIX networking to Network.framework (available since iOS 12)
 
 
