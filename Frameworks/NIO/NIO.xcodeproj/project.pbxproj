@@ -65,6 +65,63 @@
 		35D1B59321963E7300A3B9A6 /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1B58921963E7200A3B9A6 /* NIO.framework */; };
 		35D1B59821963E7300A3B9A6 /* NIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B59721963E7300A3B9A6 /* NIOTests.swift */; };
 		35D1B59A21963E7300A3B9A6 /* NIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B58C21963E7200A3B9A6 /* NIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467A82842196ABB7000607DA /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A827B2196ABB6000607DA /* NIO.framework */; };
+		467A82922196ABE9000607DA /* AddressedEnvelope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09C21965FD1000370C5 /* AddressedEnvelope.swift */; };
+		467A82932196ABEA000607DA /* BaseSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07921965FD0000370C5 /* BaseSocket.swift */; };
+		467A82942196ABEA000607DA /* BaseSocketChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09521965FD1000370C5 /* BaseSocketChannel.swift */; };
+		467A82952196ABEA000607DA /* BlockingIOThreadPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07221965FD0000370C5 /* BlockingIOThreadPool.swift */; };
+		467A82962196ABEA000607DA /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08121965FD0000370C5 /* Bootstrap.swift */; };
+		467A82972196ABEA000607DA /* ByteBuffer-aux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06B21965F98000370C5 /* ByteBuffer-aux.swift */; };
+		467A82982196ABEA000607DA /* ByteBuffer-core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08921965FD1000370C5 /* ByteBuffer-core.swift */; };
+		467A82992196ABEA000607DA /* ByteBuffer-int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08E21965FD1000370C5 /* ByteBuffer-int.swift */; };
+		467A829A2196ABEA000607DA /* ByteBuffer-views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09721965FD1000370C5 /* ByteBuffer-views.swift */; };
+		467A829B2196ABEA000607DA /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07821965FD0000370C5 /* Channel.swift */; };
+		467A829C2196ABEA000607DA /* ChannelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09321965FD1000370C5 /* ChannelHandler.swift */; };
+		467A829D2196ABEA000607DA /* ChannelHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09A21965FD1000370C5 /* ChannelHandlers.swift */; };
+		467A829E2196ABEA000607DA /* ChannelInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08621965FD1000370C5 /* ChannelInvoker.swift */; };
+		467A829F2196ABEA000607DA /* ChannelOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09621965FD1000370C5 /* ChannelOption.swift */; };
+		467A82A02196ABEA000607DA /* ChannelPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08C21965FD1000370C5 /* ChannelPipeline.swift */; };
+		467A82A12196ABEA000607DA /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09221965FD1000370C5 /* CircularBuffer.swift */; };
+		467A82A22196ABEA000607DA /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07521965FD0000370C5 /* Codec.swift */; };
+		467A82A32196ABEA000607DA /* CompositeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08F21965FD1000370C5 /* CompositeError.swift */; };
+		467A82A42196ABEA000607DA /* ContiguousCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08721965FD1000370C5 /* ContiguousCollection.swift */; };
+		467A82A52196ABEA000607DA /* DeadChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09D21965FD1000370C5 /* DeadChannel.swift */; };
+		467A82A62196ABEA000607DA /* Embedded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08B21965FD1000370C5 /* Embedded.swift */; };
+		467A82A72196ABEA000607DA /* EventLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08A21965FD1000370C5 /* EventLoop.swift */; };
+		467A82A82196ABEA000607DA /* EventLoopFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09F21965FD2000370C5 /* EventLoopFuture.swift */; };
+		467A82A92196ABEA000607DA /* FileDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09921965FD1000370C5 /* FileDescriptor.swift */; };
+		467A82AA2196ABEA000607DA /* FileHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07A21965FD0000370C5 /* FileHandle.swift */; };
+		467A82AB2196ABEA000607DA /* FileRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07721965FD0000370C5 /* FileRegion.swift */; };
+		467A82AC2196ABEA000607DA /* GetaddrinfoResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08521965FD0000370C5 /* GetaddrinfoResolver.swift */; };
+		467A82AD2196ABEA000607DA /* HappyEyeballs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08821965FD1000370C5 /* HappyEyeballs.swift */; };
+		467A82AE2196ABEA000607DA /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07E21965FD0000370C5 /* Heap.swift */; };
+		467A82AF2196ABEA000607DA /* IntegerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A0A021965FD2000370C5 /* IntegerTypes.swift */; };
+		467A82B02196ABEA000607DA /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09B21965FD1000370C5 /* Interfaces.swift */; };
+		467A82B12196ABEA000607DA /* IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08D21965FD1000370C5 /* IO.swift */; };
+		467A82B22196ABEA000607DA /* IOData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08021965FD0000370C5 /* IOData.swift */; };
+		467A82B32196ABEA000607DA /* MarkedCircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07B21965FD0000370C5 /* MarkedCircularBuffer.swift */; };
+		467A82B42196ABEA000607DA /* MulticastChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09021965FD1000370C5 /* MulticastChannel.swift */; };
+		467A82B52196ABEA000607DA /* NIOAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07121965FC6000370C5 /* NIOAny.swift */; };
+		467A82B62196ABEA000607DA /* NonBlockingFileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07021965FC0000370C5 /* NonBlockingFileIO.swift */; };
+		467A82B72196ABEA000607DA /* PendingDatagramWritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07621965FD0000370C5 /* PendingDatagramWritesManager.swift */; };
+		467A82B82196ABEA000607DA /* PendingWritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06C21965FA2000370C5 /* PendingWritesManager.swift */; };
+		467A82B92196ABEA000607DA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06D21965FA7000370C5 /* PriorityQueue.swift */; };
+		467A82BA2196ABEA000607DA /* RecvByteBufferAllocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07C21965FD0000370C5 /* RecvByteBufferAllocator.swift */; };
+		467A82BB2196ABEA000607DA /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08421965FD0000370C5 /* Resolver.swift */; };
+		467A82BC2196ABEA000607DA /* Selectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07321965FD0000370C5 /* Selectable.swift */; };
+		467A82BD2196ABEA000607DA /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09E21965FD1000370C5 /* Selector.swift */; };
+		467A82BE2196ABEA000607DA /* ServerSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06E21965FB1000370C5 /* ServerSocket.swift */; };
+		467A82BF2196ABEA000607DA /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07F21965FD0000370C5 /* Socket.swift */; };
+		467A82C02196ABEA000607DA /* SocketAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07D21965FD0000370C5 /* SocketAddresses.swift */; };
+		467A82C12196ABEA000607DA /* SocketChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A07421965FD0000370C5 /* SocketChannel.swift */; };
+		467A82C22196ABEA000607DA /* SocketOptionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A0A121965FD2000370C5 /* SocketOptionProvider.swift */; };
+		467A82C32196ABEA000607DA /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06F21965FB6000370C5 /* System.swift */; };
+		467A82C42196ABEA000607DA /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A09821965FD1000370C5 /* Thread.swift */; };
+		467A82C52196ABEA000607DA /* TypeAssistedChannelHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08221965FD0000370C5 /* TypeAssistedChannelHandler.swift */; };
+		467A82C62196ABEA000607DA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A08321965FD0000370C5 /* Utilities.swift */; };
+		467A82C72196ABF9000607DA /* NIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B59721963E7300A3B9A6 /* NIOTests.swift */; };
+		467A82EB2196AD01000607DA /* CNIODarwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A82EA2196AD01000607DA /* CNIODarwin.framework */; };
+		467A82ED2196AD01000607DA /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A82EC2196AD01000607DA /* NIOConcurrencyHelpers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +131,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 35D1B58821963E7200A3B9A6;
 			remoteInfo = NIO;
+		};
+		467A82852196ABB7000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D1B58021963E7200A3B9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A827A2196ABB6000607DA;
+			remoteInfo = NIOTV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -139,6 +203,10 @@
 		35D1B59221963E7300A3B9A6 /* NIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D1B59721963E7300A3B9A6 /* NIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIOTests.swift; sourceTree = "<group>"; };
 		35D1B59921963E7300A3B9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467A827B2196ABB6000607DA /* NIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A82832196ABB7000607DA /* NIOTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIOTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A82EA2196AD01000607DA /* CNIODarwin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIODarwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A82EC2196AD01000607DA /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,12 +227,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		467A82782196ABB6000607DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82EB2196AD01000607DA /* CNIODarwin.framework in Frameworks */,
+				467A82ED2196AD01000607DA /* NIOConcurrencyHelpers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82802196ABB7000607DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82842196ABB7000607DA /* NIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3550A0D92196609B000370C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				467A82EA2196AD01000607DA /* CNIODarwin.framework */,
+				467A82EC2196AD01000607DA /* NIOConcurrencyHelpers.framework */,
 				351BA432219665B900C7BD8C /* NIOConcurrencyHelpers.framework */,
 				3550A0DA2196609B000370C5 /* CNIODarwin.framework */,
 			);
@@ -186,6 +273,8 @@
 			children = (
 				35D1B58921963E7200A3B9A6 /* NIO.framework */,
 				35D1B59221963E7300A3B9A6 /* NIOTests.xctest */,
+				467A827B2196ABB6000607DA /* NIO.framework */,
+				467A82832196ABB7000607DA /* NIOTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +369,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		467A82762196ABB6000607DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +415,42 @@
 			productReference = 35D1B59221963E7300A3B9A6 /* NIOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		467A827A2196ABB6000607DA /* NIOTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A828C2196ABB7000607DA /* Build configuration list for PBXNativeTarget "NIOTV" */;
+			buildPhases = (
+				467A82762196ABB6000607DA /* Headers */,
+				467A82772196ABB6000607DA /* Sources */,
+				467A82782196ABB6000607DA /* Frameworks */,
+				467A82792196ABB6000607DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIOTV;
+			productName = NIOTV;
+			productReference = 467A827B2196ABB6000607DA /* NIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		467A82822196ABB7000607DA /* NIOTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A828F2196ABB7000607DA /* Build configuration list for PBXNativeTarget "NIOTVTests" */;
+			buildPhases = (
+				467A827F2196ABB7000607DA /* Sources */,
+				467A82802196ABB7000607DA /* Frameworks */,
+				467A82812196ABB7000607DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A82862196ABB7000607DA /* PBXTargetDependency */,
+			);
+			name = NIOTVTests;
+			productName = NIOTVTests;
+			productReference = 467A82832196ABB7000607DA /* NIOTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,6 +466,12 @@
 						LastSwiftMigration = 1010;
 					};
 					35D1B59121963E7300A3B9A6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					467A827A2196ABB6000607DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					467A82822196ABB7000607DA = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -352,6 +490,8 @@
 			targets = (
 				35D1B58821963E7200A3B9A6 /* NIO */,
 				35D1B59121963E7300A3B9A6 /* NIOTests */,
+				467A827A2196ABB6000607DA /* NIOTV */,
+				467A82822196ABB7000607DA /* NIOTVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -365,6 +505,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		35D1B59021963E7300A3B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82792196ABB6000607DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82812196ABB7000607DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,6 +596,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		467A82772196ABB6000607DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A829E2196ABEA000607DA /* ChannelInvoker.swift in Sources */,
+				467A82AD2196ABEA000607DA /* HappyEyeballs.swift in Sources */,
+				467A82952196ABEA000607DA /* BlockingIOThreadPool.swift in Sources */,
+				467A82B42196ABEA000607DA /* MulticastChannel.swift in Sources */,
+				467A82A02196ABEA000607DA /* ChannelPipeline.swift in Sources */,
+				467A82B62196ABEA000607DA /* NonBlockingFileIO.swift in Sources */,
+				467A82BA2196ABEA000607DA /* RecvByteBufferAllocator.swift in Sources */,
+				467A82B72196ABEA000607DA /* PendingDatagramWritesManager.swift in Sources */,
+				467A829F2196ABEA000607DA /* ChannelOption.swift in Sources */,
+				467A829B2196ABEA000607DA /* Channel.swift in Sources */,
+				467A82C02196ABEA000607DA /* SocketAddresses.swift in Sources */,
+				467A82922196ABE9000607DA /* AddressedEnvelope.swift in Sources */,
+				467A82B02196ABEA000607DA /* Interfaces.swift in Sources */,
+				467A829C2196ABEA000607DA /* ChannelHandler.swift in Sources */,
+				467A82AA2196ABEA000607DA /* FileHandle.swift in Sources */,
+				467A82C62196ABEA000607DA /* Utilities.swift in Sources */,
+				467A82A42196ABEA000607DA /* ContiguousCollection.swift in Sources */,
+				467A82C12196ABEA000607DA /* SocketChannel.swift in Sources */,
+				467A82A82196ABEA000607DA /* EventLoopFuture.swift in Sources */,
+				467A829A2196ABEA000607DA /* ByteBuffer-views.swift in Sources */,
+				467A82A62196ABEA000607DA /* Embedded.swift in Sources */,
+				467A82C32196ABEA000607DA /* System.swift in Sources */,
+				467A82A72196ABEA000607DA /* EventLoop.swift in Sources */,
+				467A82972196ABEA000607DA /* ByteBuffer-aux.swift in Sources */,
+				467A82942196ABEA000607DA /* BaseSocketChannel.swift in Sources */,
+				467A82A92196ABEA000607DA /* FileDescriptor.swift in Sources */,
+				467A82BC2196ABEA000607DA /* Selectable.swift in Sources */,
+				467A82A32196ABEA000607DA /* CompositeError.swift in Sources */,
+				467A82AB2196ABEA000607DA /* FileRegion.swift in Sources */,
+				467A82C42196ABEA000607DA /* Thread.swift in Sources */,
+				467A82B52196ABEA000607DA /* NIOAny.swift in Sources */,
+				467A82B22196ABEA000607DA /* IOData.swift in Sources */,
+				467A82932196ABEA000607DA /* BaseSocket.swift in Sources */,
+				467A82992196ABEA000607DA /* ByteBuffer-int.swift in Sources */,
+				467A82982196ABEA000607DA /* ByteBuffer-core.swift in Sources */,
+				467A82C22196ABEA000607DA /* SocketOptionProvider.swift in Sources */,
+				467A82BF2196ABEA000607DA /* Socket.swift in Sources */,
+				467A82AF2196ABEA000607DA /* IntegerTypes.swift in Sources */,
+				467A82A22196ABEA000607DA /* Codec.swift in Sources */,
+				467A829D2196ABEA000607DA /* ChannelHandlers.swift in Sources */,
+				467A82AC2196ABEA000607DA /* GetaddrinfoResolver.swift in Sources */,
+				467A82C52196ABEA000607DA /* TypeAssistedChannelHandler.swift in Sources */,
+				467A82BE2196ABEA000607DA /* ServerSocket.swift in Sources */,
+				467A82BD2196ABEA000607DA /* Selector.swift in Sources */,
+				467A82BB2196ABEA000607DA /* Resolver.swift in Sources */,
+				467A82B12196ABEA000607DA /* IO.swift in Sources */,
+				467A82A12196ABEA000607DA /* CircularBuffer.swift in Sources */,
+				467A82AE2196ABEA000607DA /* Heap.swift in Sources */,
+				467A82962196ABEA000607DA /* Bootstrap.swift in Sources */,
+				467A82B32196ABEA000607DA /* MarkedCircularBuffer.swift in Sources */,
+				467A82B92196ABEA000607DA /* PriorityQueue.swift in Sources */,
+				467A82A52196ABEA000607DA /* DeadChannel.swift in Sources */,
+				467A82B82196ABEA000607DA /* PendingWritesManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A827F2196ABB7000607DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82C72196ABF9000607DA /* NIOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -449,6 +671,11 @@
 			isa = PBXTargetDependency;
 			target = 35D1B58821963E7200A3B9A6 /* NIO */;
 			targetProxy = 35D1B59421963E7300A3B9A6 /* PBXContainerItemProxy */;
+		};
+		467A82862196ABB7000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A827A2196ABB6000607DA /* NIOTV */;
+			targetProxy = 467A82852196ABB7000607DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,6 +739,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -569,6 +797,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -582,7 +811,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -609,7 +838,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -633,7 +862,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NIOTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -652,7 +881,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NIOTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,6 +892,94 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		467A828D2196ABB7000607DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/NIO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOTV;
+				PRODUCT_NAME = NIO;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		467A828E2196ABB7000607DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/NIO/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOTV;
+				PRODUCT_NAME = NIO;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		467A82902196ABB7000607DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		467A82912196ABB7000607DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
 		};
@@ -692,6 +1009,24 @@
 			buildConfigurations = (
 				35D1B5A121963E7300A3B9A6 /* Debug */,
 				35D1B5A221963E7300A3B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A828C2196ABB7000607DA /* Build configuration list for PBXNativeTarget "NIOTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A828D2196ABB7000607DA /* Debug */,
+				467A828E2196ABB7000607DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A828F2196ABB7000607DA /* Build configuration list for PBXNativeTarget "NIOTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A82902196ABB7000607DA /* Debug */,
+				467A82912196ABB7000607DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

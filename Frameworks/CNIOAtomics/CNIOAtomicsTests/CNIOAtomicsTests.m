@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <CNIOAtomics/CNIOAtomics.h>
 
 @interface CNIOAtomicsTests : XCTestCase
 

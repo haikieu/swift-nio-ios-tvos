@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>CNIOHTTPParser.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>CNIOHTTPParserTV.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

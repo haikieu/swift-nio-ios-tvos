@@ -27,6 +27,25 @@
 		3550A0F5219663C0000370C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3550A0F4219663C0000370C5 /* Assets.xcassets */; };
 		3550A0F8219663C0000370C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3550A0F6219663C0000370C5 /* LaunchScreen.storyboard */; };
 		3550A103219663C0000370C5 /* swift_nio_demo_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A102219663C0000370C5 /* swift_nio_demo_projectTests.swift */; };
+		467A83B62196B197000607DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A83B52196B197000607DA /* AppDelegate.swift */; };
+		467A83B82196B197000607DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A83B72196B197000607DA /* ViewController.swift */; };
+		467A83BB2196B197000607DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467A83B92196B197000607DA /* Main.storyboard */; };
+		467A83BD2196B199000607DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467A83BC2196B199000607DA /* Assets.xcassets */; };
+		467A83C82196B19A000607DA /* swift_nio_demo_tv_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467A83C72196B19A000607DA /* swift_nio_demo_tv_projectTests.swift */; };
+		467A84072196B1ED000607DA /* NIOWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83F72196B19A000607DA /* NIOWebSocket.framework */; };
+		467A84082196B1ED000607DA /* NIOWebSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83F72196B19A000607DA /* NIOWebSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		467A840B2196B1ED000607DA /* NIOTLS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83F12196B19A000607DA /* NIOTLS.framework */; };
+		467A840C2196B1ED000607DA /* NIOTLS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83F12196B19A000607DA /* NIOTLS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		467A840F2196B1ED000607DA /* NIOPriorityQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83EB2196B19A000607DA /* NIOPriorityQueue.framework */; };
+		467A84102196B1ED000607DA /* NIOPriorityQueue.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83EB2196B19A000607DA /* NIOPriorityQueue.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		467A84132196B1ED000607DA /* NIOFoundationCompat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83DF2196B19A000607DA /* NIOFoundationCompat.framework */; };
+		467A84142196B1ED000607DA /* NIOFoundationCompat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83DF2196B19A000607DA /* NIOFoundationCompat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		467A84172196B1ED000607DA /* NIOHTTP1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83E52196B19A000607DA /* NIOHTTP1.framework */; };
+		467A84182196B1ED000607DA /* NIOHTTP1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83E52196B19A000607DA /* NIOHTTP1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		467A841B2196B1ED000607DA /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83D92196B19A000607DA /* NIOConcurrencyHelpers.framework */; };
+		467A841C2196B1ED000607DA /* NIOConcurrencyHelpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83D92196B19A000607DA /* NIOConcurrencyHelpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		467A841F2196B1ED000607DA /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83D32196B19A000607DA /* NIO.framework */; };
+		467A84202196B1ED000607DA /* NIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 467A83D32196B19A000607DA /* NIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -254,6 +273,230 @@
 			remoteGlobalIDString = 460DCB67219692F400CD46AF;
 			remoteInfo = CNIOSHA1Tests;
 		};
+		467A822F2196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3BD2196646E00C7BD8C /* CNIOAtomics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82112196A963000607DA;
+			remoteInfo = CNIOAtomicsTV;
+		};
+		467A82312196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3BD2196646E00C7BD8C /* CNIOAtomics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82192196A963000607DA;
+			remoteInfo = CNIOAtomicsTVTests;
+		};
+		467A82362196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3C62196647400C7BD8C /* CNIODarwin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46E83A1E2196A71C00BCBB6D;
+			remoteInfo = CNIODarwinTV;
+		};
+		467A82382196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3C62196647400C7BD8C /* CNIODarwin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46E83A262196A71D00BCBB6D;
+			remoteInfo = CNIODarwinTVTests;
+		};
+		467A823F2196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCB8D219698A100CD46AF;
+			remoteInfo = CNIOSHA1TV;
+		};
+		467A82412196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCB95219698A100CD46AF;
+			remoteInfo = CNIOSHA1TVTests;
+		};
+		467A82462196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3D82196647A00C7BD8C /* CNIOZlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4615D86421969C430029477E;
+			remoteInfo = CNIOZlibTV;
+		};
+		467A82482196AAC3000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3D82196647A00C7BD8C /* CNIOZlib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4615D86C21969C430029477E;
+			remoteInfo = CNIOZlibTVTests;
+		};
+		467A83C42196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3550A0E2219663BE000370C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A83B22196B197000607DA;
+			remoteInfo = "swift-nio-demo-tv-project";
+		};
+		467A83CC2196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3CF2196647800C7BD8C /* CNIOHTTPParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A825A2196AAE2000607DA;
+			remoteInfo = CNIOHTTPParserTV;
+		};
+		467A83CE2196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3CF2196647800C7BD8C /* CNIOHTTPParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82622196AAE2000607DA;
+			remoteInfo = CNIOHTTPParserTVTests;
+		};
+		467A83D22196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3E12196647D00C7BD8C /* NIO.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A827B2196ABB6000607DA;
+			remoteInfo = NIOTV;
+		};
+		467A83D42196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3E12196647D00C7BD8C /* NIO.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82832196ABB7000607DA;
+			remoteInfo = NIOTVTests;
+		};
+		467A83D82196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3EA2196648100C7BD8C /* NIOConcurrencyHelpers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82CD2196AC8B000607DA;
+			remoteInfo = NIOConcurrencyHelpersTV;
+		};
+		467A83DA2196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3EA2196648100C7BD8C /* NIOConcurrencyHelpers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82D52196AC8B000607DA;
+			remoteInfo = NIOConcurrencyHelpersTVTests;
+		};
+		467A83DE2196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A83202196AE01000607DA;
+			remoteInfo = NIOFoundationCompatTV;
+		};
+		467A83E02196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A83282196AE01000607DA;
+			remoteInfo = NIOFoundationCompatTVTests;
+		};
+		467A83E42196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3F32196648300C7BD8C /* NIOHTTP1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82F32196AD5A000607DA;
+			remoteInfo = NIOHTTP1TV;
+		};
+		467A83E62196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3F32196648300C7BD8C /* NIOHTTP1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A82FB2196AD5A000607DA;
+			remoteInfo = NIOHTTP1TVTests;
+		};
+		467A83EA2196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A833F2196AE87000607DA;
+			remoteInfo = NIOPriorityQueueTV;
+		};
+		467A83EC2196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A83472196AE87000607DA;
+			remoteInfo = NIOPriorityQueueTVTests;
+		};
+		467A83F02196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A83622196AF1C000607DA;
+			remoteInfo = NIOTLSTV;
+		};
+		467A83F22196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A836A2196AF1D000607DA;
+			remoteInfo = NIOTLSTVTests;
+		};
+		467A83F62196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A83852196AFA6000607DA;
+			remoteInfo = NIOWebSocketTV;
+		};
+		467A83F82196B19A000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 467A838D2196AFA7000607DA;
+			remoteInfo = NIOWebSocketTVTests;
+		};
+		467A84092196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A83842196AFA6000607DA;
+			remoteInfo = NIOWebSocketTV;
+		};
+		467A840D2196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A83612196AF1C000607DA;
+			remoteInfo = NIOTLSTV;
+		};
+		467A84112196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A833E2196AE87000607DA;
+			remoteInfo = NIOPriorityQueueTV;
+		};
+		467A84152196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A831F2196AE01000607DA;
+			remoteInfo = NIOFoundationCompatTV;
+		};
+		467A84192196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3F32196648300C7BD8C /* NIOHTTP1.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A82F22196AD5A000607DA;
+			remoteInfo = NIOHTTP1TV;
+		};
+		467A841D2196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3EA2196648100C7BD8C /* NIOConcurrencyHelpers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A82CC2196AC8B000607DA;
+			remoteInfo = NIOConcurrencyHelpersTV;
+		};
+		467A84212196B1ED000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 351BA3E12196647D00C7BD8C /* NIO.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A827A2196ABB6000607DA;
+			remoteInfo = NIOTV;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -270,6 +513,23 @@
 				351BA4162196657500C7BD8C /* NIOHTTP1.framework in Embed Frameworks */,
 				351BA41A2196657500C7BD8C /* NIOConcurrencyHelpers.framework in Embed Frameworks */,
 				351BA41E2196657500C7BD8C /* NIO.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A84232196B1ED000607DA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				467A84102196B1ED000607DA /* NIOPriorityQueue.framework in Embed Frameworks */,
+				467A841C2196B1ED000607DA /* NIOConcurrencyHelpers.framework in Embed Frameworks */,
+				467A84082196B1ED000607DA /* NIOWebSocket.framework in Embed Frameworks */,
+				467A84142196B1ED000607DA /* NIOFoundationCompat.framework in Embed Frameworks */,
+				467A84202196B1ED000607DA /* NIO.framework in Embed Frameworks */,
+				467A84182196B1ED000607DA /* NIOHTTP1.framework in Embed Frameworks */,
+				467A840C2196B1ED000607DA /* NIOTLS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +560,15 @@
 		460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOTLS.xcodeproj; path = ../Frameworks/NIOTLS/NIOTLS.xcodeproj; sourceTree = "<group>"; };
 		460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOWebSocket.xcodeproj; path = ../Frameworks/NIOWebSocket/NIOWebSocket.xcodeproj; sourceTree = "<group>"; };
 		460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CNIOSHA1.xcodeproj; path = ../Frameworks/CNIOSHA1/CNIOSHA1.xcodeproj; sourceTree = "<group>"; };
+		467A83B32196B197000607DA /* swift-nio-demo-tv-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-nio-demo-tv-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A83B52196B197000607DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		467A83B72196B197000607DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		467A83BA2196B197000607DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		467A83BC2196B199000607DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467A83BE2196B199000607DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467A83C32196B19A000607DA /* swift-nio-demo-tv-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-nio-demo-tv-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A83C72196B19A000607DA /* swift_nio_demo_tv_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_nio_demo_tv_projectTests.swift; sourceTree = "<group>"; };
+		467A83C92196B19A000607DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +593,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		467A83B02196B197000607DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A840F2196B1ED000607DA /* NIOPriorityQueue.framework in Frameworks */,
+				467A841B2196B1ED000607DA /* NIOConcurrencyHelpers.framework in Frameworks */,
+				467A84072196B1ED000607DA /* NIOWebSocket.framework in Frameworks */,
+				467A84132196B1ED000607DA /* NIOFoundationCompat.framework in Frameworks */,
+				467A841F2196B1ED000607DA /* NIO.framework in Frameworks */,
+				467A84172196B1ED000607DA /* NIOHTTP1.framework in Frameworks */,
+				467A840B2196B1ED000607DA /* NIOTLS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A83C02196B19A000607DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -332,6 +622,8 @@
 			children = (
 				351BA3C32196646E00C7BD8C /* CNIOAtomics.framework */,
 				351BA3C52196646E00C7BD8C /* CNIOAtomicsTests.xctest */,
+				467A82302196AAC3000607DA /* CNIOAtomics.framework */,
+				467A82322196AAC3000607DA /* CNIOAtomicsTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -341,6 +633,8 @@
 			children = (
 				351BA3CC2196647500C7BD8C /* CNIODarwin.framework */,
 				351BA3CE2196647500C7BD8C /* CNIODarwinTests.xctest */,
+				467A82372196AAC3000607DA /* CNIODarwin.framework */,
+				467A82392196AAC3000607DA /* CNIODarwinTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -350,6 +644,8 @@
 			children = (
 				351BA3D52196647800C7BD8C /* CNIOHTTPParser.framework */,
 				351BA3D72196647800C7BD8C /* CNIOHTTPParserTests.xctest */,
+				467A83CD2196B19A000607DA /* CNIOHTTPParser.framework */,
+				467A83CF2196B19A000607DA /* CNIOHTTPParserTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -359,6 +655,8 @@
 			children = (
 				351BA3DE2196647A00C7BD8C /* CNIOZlib.framework */,
 				351BA3E02196647A00C7BD8C /* CNIOZlibTests.xctest */,
+				467A82472196AAC3000607DA /* CNIOZlib.framework */,
+				467A82492196AAC3000607DA /* CNIOZlibTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,6 +666,8 @@
 			children = (
 				351BA3E72196647E00C7BD8C /* NIO.framework */,
 				351BA3E92196647E00C7BD8C /* NIOTests.xctest */,
+				467A83D32196B19A000607DA /* NIO.framework */,
+				467A83D52196B19A000607DA /* NIOTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,6 +677,8 @@
 			children = (
 				351BA3F02196648100C7BD8C /* NIOConcurrencyHelpers.framework */,
 				351BA3F22196648100C7BD8C /* NIOConcurrencyHelpersTests.xctest */,
+				467A83D92196B19A000607DA /* NIOConcurrencyHelpers.framework */,
+				467A83DB2196B19A000607DA /* NIOConcurrencyHelpersTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -386,6 +688,8 @@
 			children = (
 				351BA3F92196648300C7BD8C /* NIOHTTP1.framework */,
 				351BA3FB2196648300C7BD8C /* NIOHTTP1Tests.xctest */,
+				467A83E52196B19A000607DA /* NIOHTTP1.framework */,
+				467A83E72196B19A000607DA /* NIOHTTP1TVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -403,6 +707,8 @@
 				3550A10D219663C9000370C5 /* Linked Frameworks */,
 				3550A0EC219663BE000370C5 /* swift-nio-demo-project */,
 				3550A101219663C0000370C5 /* swift-nio-demo-projectTests */,
+				467A83B42196B197000607DA /* swift-nio-demo-tv-project */,
+				467A83C62196B19A000607DA /* swift-nio-demo-tv-projectTests */,
 				3550A0EB219663BE000370C5 /* Products */,
 				351BA40C2196653E00C7BD8C /* Frameworks */,
 			);
@@ -413,6 +719,8 @@
 			children = (
 				3550A0EA219663BE000370C5 /* swift-nio-demo-project.app */,
 				3550A0FE219663C0000370C5 /* swift-nio-demo-projectTests.xctest */,
+				467A83B32196B197000607DA /* swift-nio-demo-tv-project.app */,
+				467A83C32196B19A000607DA /* swift-nio-demo-tv-projectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -443,7 +751,6 @@
 		3550A10D219663C9000370C5 /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */,
 				460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */,
 				460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */,
 				460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */,
@@ -451,6 +758,7 @@
 				351BA3F32196648300C7BD8C /* NIOHTTP1.xcodeproj */,
 				351BA3EA2196648100C7BD8C /* NIOConcurrencyHelpers.xcodeproj */,
 				351BA3E12196647D00C7BD8C /* NIO.xcodeproj */,
+				460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */,
 				351BA3D82196647A00C7BD8C /* CNIOZlib.xcodeproj */,
 				351BA3CF2196647800C7BD8C /* CNIOHTTPParser.xcodeproj */,
 				351BA3C62196647400C7BD8C /* CNIODarwin.xcodeproj */,
@@ -464,6 +772,8 @@
 			children = (
 				460DCB122196918B00CD46AF /* NIOFoundationCompat.framework */,
 				460DCB142196918B00CD46AF /* NIOFoundationCompatTests.xctest */,
+				467A83DF2196B19A000607DA /* NIOFoundationCompat.framework */,
+				467A83E12196B19A000607DA /* NIOFoundationCompatTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -473,6 +783,8 @@
 			children = (
 				460DCB1C2196919100CD46AF /* NIOPriorityQueue.framework */,
 				460DCB1E2196919100CD46AF /* NIOPriorityQueueTests.xctest */,
+				467A83EB2196B19A000607DA /* NIOPriorityQueue.framework */,
+				467A83ED2196B19A000607DA /* NIOPriorityQueueTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -482,6 +794,8 @@
 			children = (
 				460DCB252196919600CD46AF /* NIOTLS.framework */,
 				460DCB272196919600CD46AF /* NIOTLSTests.xctest */,
+				467A83F12196B19A000607DA /* NIOTLS.framework */,
+				467A83F32196B19A000607DA /* NIOTLSTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -491,6 +805,8 @@
 			children = (
 				460DCB2E2196919A00CD46AF /* NIOWebSocket.framework */,
 				460DCB302196919A00CD46AF /* NIOWebSocketTests.xctest */,
+				467A83F72196B19A000607DA /* NIOWebSocket.framework */,
+				467A83F92196B19A000607DA /* NIOWebSocketTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -500,8 +816,31 @@
 			children = (
 				460DCB7E2196930900CD46AF /* CNIOSHA1.framework */,
 				460DCB802196930900CD46AF /* CNIOSHA1Tests.xctest */,
+				467A82402196AAC3000607DA /* CNIOSHA1.framework */,
+				467A82422196AAC3000607DA /* CNIOSHA1TVTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		467A83B42196B197000607DA /* swift-nio-demo-tv-project */ = {
+			isa = PBXGroup;
+			children = (
+				467A83B52196B197000607DA /* AppDelegate.swift */,
+				467A83B72196B197000607DA /* ViewController.swift */,
+				467A83B92196B197000607DA /* Main.storyboard */,
+				467A83BC2196B199000607DA /* Assets.xcassets */,
+				467A83BE2196B199000607DA /* Info.plist */,
+			);
+			path = "swift-nio-demo-tv-project";
+			sourceTree = "<group>";
+		};
+		467A83C62196B19A000607DA /* swift-nio-demo-tv-projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				467A83C72196B19A000607DA /* swift_nio_demo_tv_projectTests.swift */,
+				467A83C92196B19A000607DA /* Info.plist */,
+			);
+			path = "swift-nio-demo-tv-projectTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -550,6 +889,49 @@
 			productReference = 3550A0FE219663C0000370C5 /* swift-nio-demo-projectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		467A83B22196B197000607DA /* swift-nio-demo-tv-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A83FA2196B19A000607DA /* Build configuration list for PBXNativeTarget "swift-nio-demo-tv-project" */;
+			buildPhases = (
+				467A83AF2196B197000607DA /* Sources */,
+				467A83B02196B197000607DA /* Frameworks */,
+				467A83B12196B197000607DA /* Resources */,
+				467A84232196B1ED000607DA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A840A2196B1ED000607DA /* PBXTargetDependency */,
+				467A840E2196B1ED000607DA /* PBXTargetDependency */,
+				467A84122196B1ED000607DA /* PBXTargetDependency */,
+				467A84162196B1ED000607DA /* PBXTargetDependency */,
+				467A841A2196B1ED000607DA /* PBXTargetDependency */,
+				467A841E2196B1ED000607DA /* PBXTargetDependency */,
+				467A84222196B1ED000607DA /* PBXTargetDependency */,
+			);
+			name = "swift-nio-demo-tv-project";
+			productName = "swift-nio-demo-tv-project";
+			productReference = 467A83B32196B197000607DA /* swift-nio-demo-tv-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		467A83C22196B19A000607DA /* swift-nio-demo-tv-projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A83FD2196B19A000607DA /* Build configuration list for PBXNativeTarget "swift-nio-demo-tv-projectTests" */;
+			buildPhases = (
+				467A83BF2196B19A000607DA /* Sources */,
+				467A83C02196B19A000607DA /* Frameworks */,
+				467A83C12196B19A000607DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A83C52196B19A000607DA /* PBXTargetDependency */,
+			);
+			name = "swift-nio-demo-tv-projectTests";
+			productName = "swift-nio-demo-tv-projectTests";
+			productReference = 467A83C32196B19A000607DA /* swift-nio-demo-tv-projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -566,6 +948,13 @@
 					3550A0FD219663C0000370C5 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 3550A0E9219663BE000370C5;
+					};
+					467A83B22196B197000607DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					467A83C22196B19A000607DA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 467A83B22196B197000607DA;
 					};
 				};
 			};
@@ -634,6 +1023,8 @@
 			targets = (
 				3550A0E9219663BE000370C5 /* swift-nio-demo-project */,
 				3550A0FD219663C0000370C5 /* swift-nio-demo-projectTests */,
+				467A83B22196B197000607DA /* swift-nio-demo-tv-project */,
+				467A83C22196B19A000607DA /* swift-nio-demo-tv-projectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -807,6 +1198,174 @@
 			remoteRef = 460DCB7F2196930900CD46AF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		467A82302196AAC3000607DA /* CNIOAtomics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CNIOAtomics.framework;
+			remoteRef = 467A822F2196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82322196AAC3000607DA /* CNIOAtomicsTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CNIOAtomicsTVTests.xctest;
+			remoteRef = 467A82312196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82372196AAC3000607DA /* CNIODarwin.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CNIODarwin.framework;
+			remoteRef = 467A82362196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82392196AAC3000607DA /* CNIODarwinTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CNIODarwinTVTests.xctest;
+			remoteRef = 467A82382196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82402196AAC3000607DA /* CNIOSHA1.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CNIOSHA1.framework;
+			remoteRef = 467A823F2196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82422196AAC3000607DA /* CNIOSHA1TVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CNIOSHA1TVTests.xctest;
+			remoteRef = 467A82412196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82472196AAC3000607DA /* CNIOZlib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CNIOZlib.framework;
+			remoteRef = 467A82462196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A82492196AAC3000607DA /* CNIOZlibTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CNIOZlibTVTests.xctest;
+			remoteRef = 467A82482196AAC3000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83CD2196B19A000607DA /* CNIOHTTPParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CNIOHTTPParser.framework;
+			remoteRef = 467A83CC2196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83CF2196B19A000607DA /* CNIOHTTPParserTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CNIOHTTPParserTVTests.xctest;
+			remoteRef = 467A83CE2196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83D32196B19A000607DA /* NIO.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIO.framework;
+			remoteRef = 467A83D22196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83D52196B19A000607DA /* NIOTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOTVTests.xctest;
+			remoteRef = 467A83D42196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83D92196B19A000607DA /* NIOConcurrencyHelpers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOConcurrencyHelpers.framework;
+			remoteRef = 467A83D82196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83DB2196B19A000607DA /* NIOConcurrencyHelpersTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOConcurrencyHelpersTVTests.xctest;
+			remoteRef = 467A83DA2196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83DF2196B19A000607DA /* NIOFoundationCompat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOFoundationCompat.framework;
+			remoteRef = 467A83DE2196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83E12196B19A000607DA /* NIOFoundationCompatTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOFoundationCompatTVTests.xctest;
+			remoteRef = 467A83E02196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83E52196B19A000607DA /* NIOHTTP1.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOHTTP1.framework;
+			remoteRef = 467A83E42196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83E72196B19A000607DA /* NIOHTTP1TVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOHTTP1TVTests.xctest;
+			remoteRef = 467A83E62196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83EB2196B19A000607DA /* NIOPriorityQueue.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOPriorityQueue.framework;
+			remoteRef = 467A83EA2196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83ED2196B19A000607DA /* NIOPriorityQueueTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOPriorityQueueTVTests.xctest;
+			remoteRef = 467A83EC2196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83F12196B19A000607DA /* NIOTLS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOTLS.framework;
+			remoteRef = 467A83F02196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83F32196B19A000607DA /* NIOTLSTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOTLSTVTests.xctest;
+			remoteRef = 467A83F22196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83F72196B19A000607DA /* NIOWebSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOWebSocket.framework;
+			remoteRef = 467A83F62196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		467A83F92196B19A000607DA /* NIOWebSocketTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOWebSocketTVTests.xctest;
+			remoteRef = 467A83F82196B19A000607DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -821,6 +1380,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3550A0FC219663C0000370C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A83B12196B197000607DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A83BD2196B199000607DA /* Assets.xcassets in Resources */,
+				467A83BB2196B197000607DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A83C12196B19A000607DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -844,6 +1419,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3550A103219663C0000370C5 /* swift_nio_demo_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A83AF2196B197000607DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A83B82196B197000607DA /* ViewController.swift in Sources */,
+				467A83B62196B197000607DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A83BF2196B19A000607DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A83C82196B19A000607DA /* swift_nio_demo_tv_projectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,6 +1482,46 @@
 			target = 3550A0E9219663BE000370C5 /* swift-nio-demo-project */;
 			targetProxy = 3550A0FF219663C0000370C5 /* PBXContainerItemProxy */;
 		};
+		467A83C52196B19A000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A83B22196B197000607DA /* swift-nio-demo-tv-project */;
+			targetProxy = 467A83C42196B19A000607DA /* PBXContainerItemProxy */;
+		};
+		467A840A2196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOWebSocketTV;
+			targetProxy = 467A84092196B1ED000607DA /* PBXContainerItemProxy */;
+		};
+		467A840E2196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOTLSTV;
+			targetProxy = 467A840D2196B1ED000607DA /* PBXContainerItemProxy */;
+		};
+		467A84122196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOPriorityQueueTV;
+			targetProxy = 467A84112196B1ED000607DA /* PBXContainerItemProxy */;
+		};
+		467A84162196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOFoundationCompatTV;
+			targetProxy = 467A84152196B1ED000607DA /* PBXContainerItemProxy */;
+		};
+		467A841A2196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOHTTP1TV;
+			targetProxy = 467A84192196B1ED000607DA /* PBXContainerItemProxy */;
+		};
+		467A841E2196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOConcurrencyHelpersTV;
+			targetProxy = 467A841D2196B1ED000607DA /* PBXContainerItemProxy */;
+		};
+		467A84222196B1ED000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOTV;
+			targetProxy = 467A84212196B1ED000607DA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -907,6 +1539,14 @@
 				3550A0F7219663C0000370C5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		467A83B92196B197000607DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467A83BA2196B197000607DA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1110,6 +1750,92 @@
 			};
 			name = Release;
 		};
+		467A83FB2196B19A000607DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-nio-demo-tv-project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hk.lib.swift-nio-demo-tv-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		467A83FC2196B19A000607DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-nio-demo-tv-project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hk.lib.swift-nio-demo-tv-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
+		467A83FE2196B19A000607DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-nio-demo-tv-projectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hk.lib.swift-nio-demo-tv-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-nio-demo-tv-project.app/swift-nio-demo-tv-project";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		467A83FF2196B19A000607DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "swift-nio-demo-tv-projectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hk.lib.swift-nio-demo-tv-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-nio-demo-tv-project.app/swift-nio-demo-tv-project";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1136,6 +1862,24 @@
 			buildConfigurations = (
 				3550A10B219663C0000370C5 /* Debug */,
 				3550A10C219663C0000370C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A83FA2196B19A000607DA /* Build configuration list for PBXNativeTarget "swift-nio-demo-tv-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A83FB2196B19A000607DA /* Debug */,
+				467A83FC2196B19A000607DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A83FD2196B19A000607DA /* Build configuration list for PBXNativeTarget "swift-nio-demo-tv-projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A83FE2196B19A000607DA /* Debug */,
+				467A83FF2196B19A000607DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

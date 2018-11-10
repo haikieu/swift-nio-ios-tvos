@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>CNIOSHA1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>CNIOSHA1TV.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

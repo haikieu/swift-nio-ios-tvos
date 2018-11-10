@@ -13,6 +13,12 @@
 		35D1B64E21963F9600A3B9A6 /* NIOConcurrencyHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B64D21963F9600A3B9A6 /* NIOConcurrencyHelpersTests.swift */; };
 		35D1B65021963F9600A3B9A6 /* NIOConcurrencyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B64221963F9600A3B9A6 /* NIOConcurrencyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35E14E9E21965C3C009970D0 /* CNIOAtomics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E14E9D21965C3C009970D0 /* CNIOAtomics.framework */; };
+		467A82D62196AC8B000607DA /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A82CD2196AC8B000607DA /* NIOConcurrencyHelpers.framework */; };
+		467A82E42196AC9A000607DA /* NIOConcurrencyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B64221963F9600A3B9A6 /* NIOConcurrencyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467A82E62196ACCE000607DA /* CNIOAtomics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A82E52196ACCE000607DA /* CNIOAtomics.framework */; };
+		467A82E72196ACD7000607DA /* atomics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511808E21965BC10066333F /* atomics.swift */; };
+		467A82E82196ACD7000607DA /* lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511808F21965BC10066333F /* lock.swift */; };
+		467A82E92196ACDD000607DA /* NIOConcurrencyHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B64D21963F9600A3B9A6 /* NIOConcurrencyHelpersTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +28,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 35D1B63E21963F9600A3B9A6;
 			remoteInfo = NIOConcurrencyHelpers;
+		};
+		467A82D72196AC8B000607DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D1B63621963F9600A3B9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467A82CC2196AC8B000607DA;
+			remoteInfo = NIOConcurrencyHelpersTV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,6 +48,9 @@
 		35D1B64D21963F9600A3B9A6 /* NIOConcurrencyHelpersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIOConcurrencyHelpersTests.swift; sourceTree = "<group>"; };
 		35D1B64F21963F9600A3B9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35E14E9D21965C3C009970D0 /* CNIOAtomics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOAtomics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A82CD2196AC8B000607DA /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A82D52196AC8B000607DA /* NIOConcurrencyHelpersTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIOConcurrencyHelpersTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467A82E52196ACCE000607DA /* CNIOAtomics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOAtomics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +67,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1B64921963F9600A3B9A6 /* NIOConcurrencyHelpers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82CA2196AC8B000607DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82E62196ACCE000607DA /* CNIOAtomics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82D22196AC8B000607DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82D62196AC8B000607DA /* NIOConcurrencyHelpers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,8 @@
 			children = (
 				35D1B63F21963F9600A3B9A6 /* NIOConcurrencyHelpers.framework */,
 				35D1B64821963F9600A3B9A6 /* NIOConcurrencyHelpersTests.xctest */,
+				467A82CD2196AC8B000607DA /* NIOConcurrencyHelpers.framework */,
+				467A82D52196AC8B000607DA /* NIOConcurrencyHelpersTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +141,7 @@
 		35E14E9C21965C3C009970D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				467A82E52196ACCE000607DA /* CNIOAtomics.framework */,
 				35E14E9D21965C3C009970D0 /* CNIOAtomics.framework */,
 			);
 			name = Frameworks;
@@ -120,6 +155,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1B65021963F9600A3B9A6 /* NIOConcurrencyHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82C82196AC8B000607DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82E42196AC9A000607DA /* NIOConcurrencyHelpers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +205,42 @@
 			productReference = 35D1B64821963F9600A3B9A6 /* NIOConcurrencyHelpersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		467A82CC2196AC8B000607DA /* NIOConcurrencyHelpersTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A82DE2196AC8B000607DA /* Build configuration list for PBXNativeTarget "NIOConcurrencyHelpersTV" */;
+			buildPhases = (
+				467A82C82196AC8B000607DA /* Headers */,
+				467A82C92196AC8B000607DA /* Sources */,
+				467A82CA2196AC8B000607DA /* Frameworks */,
+				467A82CB2196AC8B000607DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIOConcurrencyHelpersTV;
+			productName = NIOConcurrencyHelpersTV;
+			productReference = 467A82CD2196AC8B000607DA /* NIOConcurrencyHelpers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		467A82D42196AC8B000607DA /* NIOConcurrencyHelpersTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A82E12196AC8B000607DA /* Build configuration list for PBXNativeTarget "NIOConcurrencyHelpersTVTests" */;
+			buildPhases = (
+				467A82D12196AC8B000607DA /* Sources */,
+				467A82D22196AC8B000607DA /* Frameworks */,
+				467A82D32196AC8B000607DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467A82D82196AC8B000607DA /* PBXTargetDependency */,
+			);
+			name = NIOConcurrencyHelpersTVTests;
+			productName = NIOConcurrencyHelpersTVTests;
+			productReference = 467A82D52196AC8B000607DA /* NIOConcurrencyHelpersTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +256,12 @@
 						LastSwiftMigration = 1010;
 					};
 					35D1B64721963F9600A3B9A6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					467A82CC2196AC8B000607DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					467A82D42196AC8B000607DA = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -195,6 +280,8 @@
 			targets = (
 				35D1B63E21963F9600A3B9A6 /* NIOConcurrencyHelpers */,
 				35D1B64721963F9600A3B9A6 /* NIOConcurrencyHelpersTests */,
+				467A82CC2196AC8B000607DA /* NIOConcurrencyHelpersTV */,
+				467A82D42196AC8B000607DA /* NIOConcurrencyHelpersTVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +295,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		35D1B64621963F9600A3B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82CB2196AC8B000607DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82D32196AC8B000607DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,6 +335,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		467A82C92196AC8B000607DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82E82196ACD7000607DA /* lock.swift in Sources */,
+				467A82E72196ACD7000607DA /* atomics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467A82D12196AC8B000607DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82E92196ACDD000607DA /* NIOConcurrencyHelpersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -241,6 +359,11 @@
 			isa = PBXTargetDependency;
 			target = 35D1B63E21963F9600A3B9A6 /* NIOConcurrencyHelpers */;
 			targetProxy = 35D1B64A21963F9600A3B9A6 /* PBXContainerItemProxy */;
+		};
+		467A82D82196AC8B000607DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467A82CC2196AC8B000607DA /* NIOConcurrencyHelpersTV */;
+			targetProxy = 467A82D72196AC8B000607DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -304,6 +427,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -361,6 +485,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -374,7 +499,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -401,7 +526,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -425,7 +550,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NIOConcurrencyHelpersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,7 +569,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NIOConcurrencyHelpersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +580,94 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		467A82DF2196AC8B000607DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/NIOConcurrencyHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOConcurrencyHelpersTV;
+				PRODUCT_NAME = NIOConcurrencyHelpers;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		467A82E02196AC8B000607DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/NIOConcurrencyHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOConcurrencyHelpersTV;
+				PRODUCT_NAME = NIOConcurrencyHelpers;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		467A82E22196AC8B000607DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIOConcurrencyHelpersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOConcurrencyHelpersTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		467A82E32196AC8B000607DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NIOConcurrencyHelpersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOConcurrencyHelpersTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
 		};
@@ -484,6 +697,24 @@
 			buildConfigurations = (
 				35D1B65721963F9600A3B9A6 /* Debug */,
 				35D1B65821963F9600A3B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A82DE2196AC8B000607DA /* Build configuration list for PBXNativeTarget "NIOConcurrencyHelpersTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A82DF2196AC8B000607DA /* Debug */,
+				467A82E02196AC8B000607DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A82E12196AC8B000607DA /* Build configuration list for PBXNativeTarget "NIOConcurrencyHelpersTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467A82E22196AC8B000607DA /* Debug */,
+				467A82E32196AC8B000607DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

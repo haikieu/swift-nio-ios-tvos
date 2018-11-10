@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <CNIOHTTPParser/CNIOHTTPParser.h>
 
 @interface CNIOHTTPParserTests : XCTestCase
 

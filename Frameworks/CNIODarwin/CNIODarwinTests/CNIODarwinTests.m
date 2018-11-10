@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <CNIODarwin/CNIODarwin.h>
 
 @interface CNIODarwinTests : XCTestCase
 

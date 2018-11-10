@@ -12,6 +12,11 @@
 		35D1B60621963F6700A3B9A6 /* CNIODarwinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B60521963F6700A3B9A6 /* CNIODarwinTests.m */; };
 		35D1B60821963F6700A3B9A6 /* CNIODarwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B5FA21963F6600A3B9A6 /* CNIODarwin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D1B6BC219640E500A3B9A6 /* shim.c in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B6BB219640E500A3B9A6 /* shim.c */; };
+		467A82082196A878000607DA /* shim.c in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B6BB219640E500A3B9A6 /* shim.c */; };
+		467A82092196A87B000607DA /* shim.h in Headers */ = {isa = PBXBuildFile; fileRef = 3511807F219658EB0066333F /* shim.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467A820A2196A880000607DA /* CNIODarwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D1B5FA21963F6600A3B9A6 /* CNIODarwin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467A820B2196A887000607DA /* CNIODarwinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D1B60521963F6700A3B9A6 /* CNIODarwinTests.m */; };
+		46E83A272196A71D00BCBB6D /* CNIODarwin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E83A1E2196A71C00BCBB6D /* CNIODarwin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +26,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 35D1B5F621963F6600A3B9A6;
 			remoteInfo = CNIODarwin;
+		};
+		46E83A282196A71D00BCBB6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35D1B5EE21963F6600A3B9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E83A1D2196A71C00BCBB6D;
+			remoteInfo = CNIODarwinTV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,6 +45,8 @@
 		35D1B60521963F6700A3B9A6 /* CNIODarwinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNIODarwinTests.m; sourceTree = "<group>"; };
 		35D1B60721963F6700A3B9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D1B6BB219640E500A3B9A6 /* shim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shim.c; sourceTree = "<group>"; };
+		46E83A1E2196A71C00BCBB6D /* CNIODarwin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNIODarwin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E83A262196A71D00BCBB6D /* CNIODarwinTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNIODarwinTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +62,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D1B60121963F6700A3B9A6 /* CNIODarwin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E83A1B2196A71C00BCBB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E83A232196A71C00BCBB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E83A272196A71D00BCBB6D /* CNIODarwin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +97,8 @@
 			children = (
 				35D1B5F721963F6600A3B9A6 /* CNIODarwin.framework */,
 				35D1B60021963F6700A3B9A6 /* CNIODarwinTests.xctest */,
+				46E83A1E2196A71C00BCBB6D /* CNIODarwin.framework */,
+				46E83A262196A71D00BCBB6D /* CNIODarwinTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +132,15 @@
 			files = (
 				35D1B60821963F6700A3B9A6 /* CNIODarwin.h in Headers */,
 				35118080219659950066333F /* shim.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E83A192196A71C00BCBB6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A820A2196A880000607DA /* CNIODarwin.h in Headers */,
+				467A82092196A87B000607DA /* shim.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +183,42 @@
 			productReference = 35D1B60021963F6700A3B9A6 /* CNIODarwinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		46E83A1D2196A71C00BCBB6D /* CNIODarwinTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E83A332196A71D00BCBB6D /* Build configuration list for PBXNativeTarget "CNIODarwinTV" */;
+			buildPhases = (
+				46E83A192196A71C00BCBB6D /* Headers */,
+				46E83A1A2196A71C00BCBB6D /* Sources */,
+				46E83A1B2196A71C00BCBB6D /* Frameworks */,
+				46E83A1C2196A71C00BCBB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNIODarwinTV;
+			productName = CNIODarwinTV;
+			productReference = 46E83A1E2196A71C00BCBB6D /* CNIODarwin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46E83A252196A71C00BCBB6D /* CNIODarwinTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E83A342196A71D00BCBB6D /* Build configuration list for PBXNativeTarget "CNIODarwinTVTests" */;
+			buildPhases = (
+				46E83A222196A71C00BCBB6D /* Sources */,
+				46E83A232196A71C00BCBB6D /* Frameworks */,
+				46E83A242196A71C00BCBB6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E83A292196A71D00BCBB6D /* PBXTargetDependency */,
+			);
+			name = CNIODarwinTVTests;
+			productName = CNIODarwinTVTests;
+			productReference = 46E83A262196A71D00BCBB6D /* CNIODarwinTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +232,12 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					35D1B5FF21963F6700A3B9A6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					46E83A1D2196A71C00BCBB6D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					46E83A252196A71C00BCBB6D = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -174,6 +256,8 @@
 			targets = (
 				35D1B5F621963F6600A3B9A6 /* CNIODarwin */,
 				35D1B5FF21963F6700A3B9A6 /* CNIODarwinTests */,
+				46E83A1D2196A71C00BCBB6D /* CNIODarwinTV */,
+				46E83A252196A71C00BCBB6D /* CNIODarwinTVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +271,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		35D1B5FE21963F6700A3B9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E83A1C2196A71C00BCBB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E83A242196A71C00BCBB6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,6 +310,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		46E83A1A2196A71C00BCBB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A82082196A878000607DA /* shim.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E83A222196A71C00BCBB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467A820B2196A887000607DA /* CNIODarwinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +333,11 @@
 			isa = PBXTargetDependency;
 			target = 35D1B5F621963F6600A3B9A6 /* CNIODarwin */;
 			targetProxy = 35D1B60221963F6700A3B9A6 /* PBXContainerItemProxy */;
+		};
+		46E83A292196A71D00BCBB6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E83A1D2196A71C00BCBB6D /* CNIODarwinTV */;
+			targetProxy = 46E83A282196A71D00BCBB6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -280,6 +399,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -335,6 +455,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -347,7 +468,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -371,7 +492,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -393,7 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CNIODarwinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,7 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CNIODarwinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,6 +541,88 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIODarwinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46E83A2F2196A71D00BCBB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CNIODarwin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIODarwinTV;
+				PRODUCT_NAME = CNIODarwin;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		46E83A302196A71D00BCBB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CNIODarwin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIODarwinTV;
+				PRODUCT_NAME = CNIODarwin;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		46E83A312196A71D00BCBB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CNIODarwinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIODarwinTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		46E83A322196A71D00BCBB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CNIODarwinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.CNIODarwinTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
 		};
@@ -449,6 +652,24 @@
 			buildConfigurations = (
 				35D1B60F21963F6700A3B9A6 /* Debug */,
 				35D1B61021963F6700A3B9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E83A332196A71D00BCBB6D /* Build configuration list for PBXNativeTarget "CNIODarwinTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E83A2F2196A71D00BCBB6D /* Debug */,
+				46E83A302196A71D00BCBB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E83A342196A71D00BCBB6D /* Build configuration list for PBXNativeTarget "CNIODarwinTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E83A312196A71D00BCBB6D /* Debug */,
+				46E83A322196A71D00BCBB6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
