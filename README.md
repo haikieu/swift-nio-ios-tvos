@@ -1,6 +1,6 @@
-# swift-nio-ios-tvos
-DIY project set up for building some parts of Apple SwiftNIO for iOS, tvOS platforms
-
+Hello guys, This is DIY project set up for building some parts of Apple SwiftNIO for iOS, tvOS platforms.
+I believe some folks also have the same curiosity like me :)
+------------------------
 # Purpose
 The Apple's Swift-NIO project originally targets to MACOS and Ubuntu platform, in order to build high-performance networking foundation for headend purpose. But it doesn't mean We can't reuse some parts of them on iOS and tvOS.
 
