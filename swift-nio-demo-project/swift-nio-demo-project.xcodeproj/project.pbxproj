@@ -184,6 +184,76 @@
 			remoteGlobalIDString = 3550A0E9219663BE000370C5;
 			remoteInfo = "swift-nio-demo-project";
 		};
+		460DCB112196918B00CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCAEC2196917700CD46AF;
+			remoteInfo = NIOFoundationCompat;
+		};
+		460DCB132196918B00CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCAF52196917700CD46AF;
+			remoteInfo = NIOFoundationCompatTests;
+		};
+		460DCB1B2196919100CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCA802196911F00CD46AF;
+			remoteInfo = NIOPriorityQueue;
+		};
+		460DCB1D2196919100CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCA892196911F00CD46AF;
+			remoteInfo = NIOPriorityQueueTests;
+		};
+		460DCB242196919600CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCAA42196913100CD46AF;
+			remoteInfo = NIOTLS;
+		};
+		460DCB262196919600CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCAAD2196913100CD46AF;
+			remoteInfo = NIOTLSTests;
+		};
+		460DCB2D2196919A00CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCAC82196914800CD46AF;
+			remoteInfo = NIOWebSocket;
+		};
+		460DCB2F2196919A00CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCAD12196914800CD46AF;
+			remoteInfo = NIOWebSocketTests;
+		};
+		460DCB7D2196930900CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCB5E219692F400CD46AF;
+			remoteInfo = CNIOSHA1;
+		};
+		460DCB7F2196930900CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 460DCB67219692F400CD46AF;
+			remoteInfo = CNIOSHA1Tests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -225,6 +295,11 @@
 		3550A0FE219663C0000370C5 /* swift-nio-demo-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-nio-demo-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3550A102219663C0000370C5 /* swift_nio_demo_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_nio_demo_projectTests.swift; sourceTree = "<group>"; };
 		3550A104219663C0000370C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOFoundationCompat.xcodeproj; path = ../Frameworks/NIOFoundationCompat/NIOFoundationCompat.xcodeproj; sourceTree = "<group>"; };
+		460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOPriorityQueue.xcodeproj; path = ../Frameworks/NIOPriorityQueue/NIOPriorityQueue.xcodeproj; sourceTree = "<group>"; };
+		460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOTLS.xcodeproj; path = ../Frameworks/NIOTLS/NIOTLS.xcodeproj; sourceTree = "<group>"; };
+		460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOWebSocket.xcodeproj; path = ../Frameworks/NIOWebSocket/NIOWebSocket.xcodeproj; sourceTree = "<group>"; };
+		460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CNIOSHA1.xcodeproj; path = ../Frameworks/CNIOSHA1/CNIOSHA1.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +443,11 @@
 		3550A10D219663C9000370C5 /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */,
+				460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */,
+				460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */,
+				460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */,
+				460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */,
 				351BA3F32196648300C7BD8C /* NIOHTTP1.xcodeproj */,
 				351BA3EA2196648100C7BD8C /* NIOConcurrencyHelpers.xcodeproj */,
 				351BA3E12196647D00C7BD8C /* NIO.xcodeproj */,
@@ -377,6 +457,51 @@
 				351BA3BD2196646E00C7BD8C /* CNIOAtomics.xcodeproj */,
 			);
 			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		460DCB072196918B00CD46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB122196918B00CD46AF /* NIOFoundationCompat.framework */,
+				460DCB142196918B00CD46AF /* NIOFoundationCompatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460DCB172196919100CD46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB1C2196919100CD46AF /* NIOPriorityQueue.framework */,
+				460DCB1E2196919100CD46AF /* NIOPriorityQueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460DCB202196919600CD46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB252196919600CD46AF /* NIOTLS.framework */,
+				460DCB272196919600CD46AF /* NIOTLSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460DCB292196919900CD46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB2E2196919A00CD46AF /* NIOWebSocket.framework */,
+				460DCB302196919A00CD46AF /* NIOWebSocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460DCB792196930800CD46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB7E2196930900CD46AF /* CNIOSHA1.framework */,
+				460DCB802196930900CD46AF /* CNIOSHA1Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +594,10 @@
 					ProjectRef = 351BA3CF2196647800C7BD8C /* CNIOHTTPParser.xcodeproj */;
 				},
 				{
+					ProductGroup = 460DCB792196930800CD46AF /* Products */;
+					ProjectRef = 460DCB782196930800CD46AF /* CNIOSHA1.xcodeproj */;
+				},
+				{
 					ProductGroup = 351BA3D92196647A00C7BD8C /* Products */;
 					ProjectRef = 351BA3D82196647A00C7BD8C /* CNIOZlib.xcodeproj */;
 				},
@@ -481,8 +610,24 @@
 					ProjectRef = 351BA3EA2196648100C7BD8C /* NIOConcurrencyHelpers.xcodeproj */;
 				},
 				{
+					ProductGroup = 460DCB072196918B00CD46AF /* Products */;
+					ProjectRef = 460DCB062196918B00CD46AF /* NIOFoundationCompat.xcodeproj */;
+				},
+				{
 					ProductGroup = 351BA3F42196648300C7BD8C /* Products */;
 					ProjectRef = 351BA3F32196648300C7BD8C /* NIOHTTP1.xcodeproj */;
+				},
+				{
+					ProductGroup = 460DCB172196919100CD46AF /* Products */;
+					ProjectRef = 460DCB162196919100CD46AF /* NIOPriorityQueue.xcodeproj */;
+				},
+				{
+					ProductGroup = 460DCB202196919600CD46AF /* Products */;
+					ProjectRef = 460DCB1F2196919600CD46AF /* NIOTLS.xcodeproj */;
+				},
+				{
+					ProductGroup = 460DCB292196919900CD46AF /* Products */;
+					ProjectRef = 460DCB282196919900CD46AF /* NIOWebSocket.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -590,6 +735,76 @@
 			fileType = wrapper.cfbundle;
 			path = NIOHTTP1Tests.xctest;
 			remoteRef = 351BA3FA2196648300C7BD8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB122196918B00CD46AF /* NIOFoundationCompat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOFoundationCompat.framework;
+			remoteRef = 460DCB112196918B00CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB142196918B00CD46AF /* NIOFoundationCompatTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOFoundationCompatTests.xctest;
+			remoteRef = 460DCB132196918B00CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB1C2196919100CD46AF /* NIOPriorityQueue.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOPriorityQueue.framework;
+			remoteRef = 460DCB1B2196919100CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB1E2196919100CD46AF /* NIOPriorityQueueTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOPriorityQueueTests.xctest;
+			remoteRef = 460DCB1D2196919100CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB252196919600CD46AF /* NIOTLS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOTLS.framework;
+			remoteRef = 460DCB242196919600CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB272196919600CD46AF /* NIOTLSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOTLSTests.xctest;
+			remoteRef = 460DCB262196919600CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB2E2196919A00CD46AF /* NIOWebSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NIOWebSocket.framework;
+			remoteRef = 460DCB2D2196919A00CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB302196919A00CD46AF /* NIOWebSocketTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NIOWebSocketTests.xctest;
+			remoteRef = 460DCB2F2196919A00CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB7E2196930900CD46AF /* CNIOSHA1.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CNIOSHA1.framework;
+			remoteRef = 460DCB7D2196930900CD46AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		460DCB802196930900CD46AF /* CNIOSHA1Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CNIOSHA1Tests.xctest;
+			remoteRef = 460DCB7F2196930900CD46AF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

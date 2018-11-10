@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460DCAD22196914800CD46AF /* NIOWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460DCAC82196914800CD46AF /* NIOWebSocket.framework */; };
+		460DCAD72196914800CD46AF /* NIOWebSocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCAD62196914800CD46AF /* NIOWebSocketTests.swift */; };
+		460DCAD92196914900CD46AF /* NIOWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 460DCACB2196914800CD46AF /* NIOWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460DCB422196921900CD46AF /* WebSocketFrameEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB392196921800CD46AF /* WebSocketFrameEncoder.swift */; };
+		460DCB432196921900CD46AF /* WebSocketUpgrader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB3A2196921800CD46AF /* WebSocketUpgrader.swift */; };
+		460DCB442196921900CD46AF /* WebSocketErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB3B2196921800CD46AF /* WebSocketErrorCodes.swift */; };
+		460DCB452196921900CD46AF /* WebSocketProtocolErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB3C2196921800CD46AF /* WebSocketProtocolErrorHandler.swift */; };
+		460DCB462196921900CD46AF /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB3D2196921800CD46AF /* SHA1.swift */; };
+		460DCB472196921900CD46AF /* WebSocketOpcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB3E2196921800CD46AF /* WebSocketOpcode.swift */; };
+		460DCB482196921900CD46AF /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB3F2196921800CD46AF /* Base64.swift */; };
+		460DCB492196921900CD46AF /* WebSocketFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB402196921800CD46AF /* WebSocketFrame.swift */; };
+		460DCB4A2196921900CD46AF /* WebSocketFrameDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB412196921800CD46AF /* WebSocketFrameDecoder.swift */; };
+		460DCB53219692BC00CD46AF /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460DCB52219692BC00CD46AF /* NIO.framework */; };
+		460DCB872196971E00CD46AF /* NIOHTTP1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460DCB862196971E00CD46AF /* NIOHTTP1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460DCAD32196914800CD46AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460DCABF2196914800CD46AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460DCAC72196914800CD46AF;
+			remoteInfo = NIOWebSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		460DCAC82196914800CD46AF /* NIOWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NIOWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460DCACB2196914800CD46AF /* NIOWebSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NIOWebSocket.h; sourceTree = "<group>"; };
+		460DCACC2196914800CD46AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460DCAD12196914800CD46AF /* NIOWebSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIOWebSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460DCAD62196914800CD46AF /* NIOWebSocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIOWebSocketTests.swift; sourceTree = "<group>"; };
+		460DCAD82196914900CD46AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460DCB392196921800CD46AF /* WebSocketFrameEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketFrameEncoder.swift; sourceTree = "<group>"; };
+		460DCB3A2196921800CD46AF /* WebSocketUpgrader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketUpgrader.swift; sourceTree = "<group>"; };
+		460DCB3B2196921800CD46AF /* WebSocketErrorCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketErrorCodes.swift; sourceTree = "<group>"; };
+		460DCB3C2196921800CD46AF /* WebSocketProtocolErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketProtocolErrorHandler.swift; sourceTree = "<group>"; };
+		460DCB3D2196921800CD46AF /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		460DCB3E2196921800CD46AF /* WebSocketOpcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketOpcode.swift; sourceTree = "<group>"; };
+		460DCB3F2196921800CD46AF /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		460DCB402196921800CD46AF /* WebSocketFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketFrame.swift; sourceTree = "<group>"; };
+		460DCB412196921800CD46AF /* WebSocketFrameDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketFrameDecoder.swift; sourceTree = "<group>"; };
+		460DCB52219692BC00CD46AF /* NIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460DCB862196971E00CD46AF /* NIOHTTP1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOHTTP1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460DCAC52196914800CD46AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DCB872196971E00CD46AF /* NIOHTTP1.framework in Frameworks */,
+				460DCB53219692BC00CD46AF /* NIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460DCACE2196914800CD46AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DCAD22196914800CD46AF /* NIOWebSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460DCABE2196914800CD46AF = {
+			isa = PBXGroup;
+			children = (
+				460DCACA2196914800CD46AF /* NIOWebSocket */,
+				460DCAD52196914800CD46AF /* NIOWebSocketTests */,
+				460DCAC92196914800CD46AF /* Products */,
+				460DCB51219692BC00CD46AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460DCAC92196914800CD46AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460DCAC82196914800CD46AF /* NIOWebSocket.framework */,
+				460DCAD12196914800CD46AF /* NIOWebSocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460DCACA2196914800CD46AF /* NIOWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB4B2196922300CD46AF /* src */,
+				460DCACB2196914800CD46AF /* NIOWebSocket.h */,
+				460DCACC2196914800CD46AF /* Info.plist */,
+			);
+			path = NIOWebSocket;
+			sourceTree = "<group>";
+		};
+		460DCAD52196914800CD46AF /* NIOWebSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				460DCAD62196914800CD46AF /* NIOWebSocketTests.swift */,
+				460DCAD82196914900CD46AF /* Info.plist */,
+			);
+			path = NIOWebSocketTests;
+			sourceTree = "<group>";
+		};
+		460DCB4B2196922300CD46AF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB3F2196921800CD46AF /* Base64.swift */,
+				460DCB3D2196921800CD46AF /* SHA1.swift */,
+				460DCB3B2196921800CD46AF /* WebSocketErrorCodes.swift */,
+				460DCB402196921800CD46AF /* WebSocketFrame.swift */,
+				460DCB412196921800CD46AF /* WebSocketFrameDecoder.swift */,
+				460DCB392196921800CD46AF /* WebSocketFrameEncoder.swift */,
+				460DCB3E2196921800CD46AF /* WebSocketOpcode.swift */,
+				460DCB3C2196921800CD46AF /* WebSocketProtocolErrorHandler.swift */,
+				460DCB3A2196921800CD46AF /* WebSocketUpgrader.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		460DCB51219692BC00CD46AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				460DCB862196971E00CD46AF /* NIOHTTP1.framework */,
+				460DCB52219692BC00CD46AF /* NIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		460DCAC32196914800CD46AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DCAD92196914900CD46AF /* NIOWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		460DCAC72196914800CD46AF /* NIOWebSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460DCADC2196914900CD46AF /* Build configuration list for PBXNativeTarget "NIOWebSocket" */;
+			buildPhases = (
+				460DCAC32196914800CD46AF /* Headers */,
+				460DCAC42196914800CD46AF /* Sources */,
+				460DCAC52196914800CD46AF /* Frameworks */,
+				460DCAC62196914800CD46AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIOWebSocket;
+			productName = NIOWebSocket;
+			productReference = 460DCAC82196914800CD46AF /* NIOWebSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		460DCAD02196914800CD46AF /* NIOWebSocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460DCADF2196914900CD46AF /* Build configuration list for PBXNativeTarget "NIOWebSocketTests" */;
+			buildPhases = (
+				460DCACD2196914800CD46AF /* Sources */,
+				460DCACE2196914800CD46AF /* Frameworks */,
+				460DCACF2196914800CD46AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460DCAD42196914800CD46AF /* PBXTargetDependency */,
+			);
+			name = NIOWebSocketTests;
+			productName = NIOWebSocketTests;
+			productReference = 460DCAD12196914800CD46AF /* NIOWebSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460DCABF2196914800CD46AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "haikieu2907@icloud.com";
+				TargetAttributes = {
+					460DCAC72196914800CD46AF = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					460DCAD02196914800CD46AF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 460DCAC22196914800CD46AF /* Build configuration list for PBXProject "NIOWebSocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 460DCABE2196914800CD46AF;
+			productRefGroup = 460DCAC92196914800CD46AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460DCAC72196914800CD46AF /* NIOWebSocket */,
+				460DCAD02196914800CD46AF /* NIOWebSocketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460DCAC62196914800CD46AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460DCACF2196914800CD46AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460DCAC42196914800CD46AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DCB462196921900CD46AF /* SHA1.swift in Sources */,
+				460DCB492196921900CD46AF /* WebSocketFrame.swift in Sources */,
+				460DCB422196921900CD46AF /* WebSocketFrameEncoder.swift in Sources */,
+				460DCB482196921900CD46AF /* Base64.swift in Sources */,
+				460DCB432196921900CD46AF /* WebSocketUpgrader.swift in Sources */,
+				460DCB472196921900CD46AF /* WebSocketOpcode.swift in Sources */,
+				460DCB442196921900CD46AF /* WebSocketErrorCodes.swift in Sources */,
+				460DCB452196921900CD46AF /* WebSocketProtocolErrorHandler.swift in Sources */,
+				460DCB4A2196921900CD46AF /* WebSocketFrameDecoder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460DCACD2196914800CD46AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460DCAD72196914800CD46AF /* NIOWebSocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460DCAD42196914800CD46AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460DCAC72196914800CD46AF /* NIOWebSocket */;
+			targetProxy = 460DCAD32196914800CD46AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		460DCADA2196914900CD46AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		460DCADB2196914900CD46AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		460DCADD2196914900CD46AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NIOWebSocket/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOWebSocket;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460DCADE2196914900CD46AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NIOWebSocket/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOWebSocket;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		460DCAE02196914900CD46AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				INFOPLIST_FILE = NIOWebSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOWebSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460DCAE12196914900CD46AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3SL8HVN4S;
+				INFOPLIST_FILE = NIOWebSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.lib.NIOWebSocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460DCAC22196914800CD46AF /* Build configuration list for PBXProject "NIOWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460DCADA2196914900CD46AF /* Debug */,
+				460DCADB2196914900CD46AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460DCADC2196914900CD46AF /* Build configuration list for PBXNativeTarget "NIOWebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460DCADD2196914900CD46AF /* Debug */,
+				460DCADE2196914900CD46AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460DCADF2196914900CD46AF /* Build configuration list for PBXNativeTarget "NIOWebSocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460DCAE02196914900CD46AF /* Debug */,
+				460DCAE12196914900CD46AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460DCABF2196914800CD46AF /* Project object */;
+}
