@@ -11,7 +11,7 @@ Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS
 + Build iOS [success on XCode 10.1 MacOS 11.3 Higher Sierra]
 
 # TODO
-+ Build tvOS [pending]
++ Build tvOS [inprogress]
 + Migrate from POSIX networking to Network.framework (available since iOS 12)
 
 
@@ -20,6 +20,13 @@ Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS
 + CNIODarwin
 + CNIOHTTPParser
 + CNIOZlib
++ CNIOSHA1
 + NIOConcurrencyHelpers
++ NIOPriorityQueue 
 + NIO
 + NIOHTTP1
++ NIOTLS
++ NIOWebSocket
+
+# Changes notice
+- Remove some code involved to linux and android
