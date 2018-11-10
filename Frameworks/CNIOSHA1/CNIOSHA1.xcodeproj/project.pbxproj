@@ -15,6 +15,7 @@
 		460DCB96219698A100CD46AF /* CNIOSHA1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460DCB8D219698A100CD46AF /* CNIOSHA1.framework */; };
 		4615D85C21969A2C0029477E /* CNIOSHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 460DCB61219692F400CD46AF /* CNIOSHA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4615D85D21969A310029477E /* c_nio_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB812196933200CD46AF /* c_nio_sha1.c */; };
+		4615D85E21969B6B0029477E /* CNIOSHA1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DCB6C219692F400CD46AF /* CNIOSHA1Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4615D85E21969B6B0029477E /* CNIOSHA1Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,7 +605,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P3SL8HVN4S;
-				INFOPLIST_FILE = CNIOSHA1TVTests/Info.plist;
+				INFOPLIST_FILE = CNIOSHA1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +615,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -622,7 +623,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P3SL8HVN4S;
-				INFOPLIST_FILE = CNIOSHA1TVTests/Info.plist;
+				INFOPLIST_FILE = CNIOSHA1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -632,7 +633,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
