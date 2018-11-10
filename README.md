@@ -20,6 +20,10 @@ Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS
 + CNIODarwin
 + CNIOHTTPParser
 + CNIOZlib
++ CNIOSHA1
 + NIOConcurrencyHelpers
++ NIOPriorityQueue 
 + NIO
 + NIOHTTP1
++ NIOTLS
++ NIOWebSocket
