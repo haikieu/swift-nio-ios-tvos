@@ -10,7 +10,10 @@ Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS
 
 # Status
 + Build iOS [success on XCode 10.1 MacOS 11.3 Higher Sierra]
+
+# TODO
 + Build tvOS [pending]
++ Migrate from POSIX networking to Network.framework (available since iOS 12)
 
 
 # Swift-nio components included
