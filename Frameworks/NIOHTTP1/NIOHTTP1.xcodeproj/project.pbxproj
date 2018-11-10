@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351BA407219664FE00C7BD8C /* NIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351BA406219664FE00C7BD8C /* NIO.framework */; };
 		3550A0DE21966203000370C5 /* CNIOHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3550A0DD21966203000370C5 /* CNIOHTTPParser.framework */; };
 		3550A0E02196628C000370C5 /* CNIOZlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3550A0DF2196628C000370C5 /* CNIOZlib.framework */; };
 		35D1B5C121963EBD00A3B9A6 /* NIOHTTP1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D1B5B721963EBD00A3B9A6 /* NIOHTTP1.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		351BA406219664FE00C7BD8C /* NIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3550A0DD21966203000370C5 /* CNIOHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3550A0DF2196628C000370C5 /* CNIOZlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CNIOZlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D1B5B721963EBD00A3B9A6 /* NIOHTTP1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NIOHTTP1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351BA407219664FE00C7BD8C /* NIO.framework in Frameworks */,
 				3550A0E02196628C000370C5 /* CNIOZlib.framework in Frameworks */,
 				3550A0DE21966203000370C5 /* CNIOHTTPParser.framework in Frameworks */,
 			);
@@ -77,6 +80,7 @@
 		3550A0DC21966203000370C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				351BA406219664FE00C7BD8C /* NIO.framework */,
 				3550A0DF2196628C000370C5 /* CNIOZlib.framework */,
 				3550A0DD21966203000370C5 /* CNIOHTTPParser.framework */,
 			);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351BA433219665B900C7BD8C /* NIOConcurrencyHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351BA432219665B900C7BD8C /* NIOConcurrencyHelpers.framework */; };
 		3550A0A221965FD2000370C5 /* ByteBuffer-aux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06B21965F98000370C5 /* ByteBuffer-aux.swift */; };
 		3550A0A321965FD2000370C5 /* PendingWritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06C21965FA2000370C5 /* PendingWritesManager.swift */; };
 		3550A0A421965FD2000370C5 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550A06D21965FA7000370C5 /* PriorityQueue.swift */; };
@@ -77,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		351BA432219665B900C7BD8C /* NIOConcurrencyHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NIOConcurrencyHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3550A06B21965F98000370C5 /* ByteBuffer-aux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ByteBuffer-aux.swift"; sourceTree = "<group>"; };
 		3550A06C21965FA2000370C5 /* PendingWritesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingWritesManager.swift; sourceTree = "<group>"; };
 		3550A06D21965FA7000370C5 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351BA433219665B900C7BD8C /* NIOConcurrencyHelpers.framework in Frameworks */,
 				3550A0DB2196609B000370C5 /* CNIODarwin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +165,7 @@
 		3550A0D92196609B000370C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				351BA432219665B900C7BD8C /* NIOConcurrencyHelpers.framework */,
 				3550A0DA2196609B000370C5 /* CNIODarwin.framework */,
 			);
 			name = Frameworks;
