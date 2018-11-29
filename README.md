@@ -1,3 +1,5 @@
+[Learn more details here](https://swiftreviewer.com/2018/11/17/setup-swift-nio-for-ios-tvos/)
+
 Hello guys, This is DIY project set up for building some parts of Apple SwiftNIO for iOS, tvOS platforms.
 I believe some folks also have the same curiosity like me :)
 
