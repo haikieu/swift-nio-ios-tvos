@@ -1,7 +1,5 @@
-[Learn more details here](https://swiftreviewer.com/2018/11/17/setup-swift-nio-for-ios-tvos/)
-
 Hello guys, This is DIY project set up for building some parts of Apple SwiftNIO for iOS, tvOS platforms.
-I believe some folks also have the same curiosity like me :)
+I believe some folks also have the same curiosity like me :) [Learn more details here](https://swiftreviewer.com/2018/11/17/setup-swift-nio-for-ios-tvos/)
 
 ------------------------
 The Apple's Swift-NIO project originally targets to MACOS and Ubuntu OS, in order to engineer a high-performance networking foundation for the headend use purpose. But it doesn't mean We can't reuse some parts of them on iOS and tvOS.
