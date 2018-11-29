@@ -12,5 +12,5 @@ Because Swift-NIO mainly lives on POSIX socket, which not be recommended for iOS
 + Build tvOS [success on XCode 10.1 MacOS 11.3 Higher Sierra & Mojave]
 
 # Something to try if you have time
-+ Migrate from POSIX networking to Network.framework (available since iOS 12)
++ Migrate from POSIX socket to Network.framework (available since iOS 12)
 
